@@ -6,6 +6,7 @@
 }
 body {
     font-family: Roboto Slab;
+    color: #fff;
 }
 header {
     background-color: #000000; 
@@ -66,12 +67,13 @@ main {
   letter-spacing: 5px;
 }
 .section2{
+  padding-bottom: 50px;
+  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -106,14 +108,58 @@ main {
 margin-left: auto;
 margin-right: auto;
   width: 1000px;
-  height: 350px;
-}
-.section3 button {
- margin-left: auto;
- margin-right: auto;
 }
 
+.section4 {
+  padding-top: 50px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
 
+.banner2 {
+  position: relative;
+}
+.banner2::before {
+  content:"";
+  background-image: url(assets/img/Logica-de-programacao-1024x683.jpg);
+  background-size: cover;
+  position: absolute;
+  background-repeat:no-repeat;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.texto-div2 h1,h4,button  {
+  text-align: center;
+  align-items: center;
+  position: relative;
+
+}
+.texto-div2 h4{
+  padding-bottom: 25px;
+}
+.texto-div2 button {
+  font-size: large;
+  width: 400px;
+}
+.section5 {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section6 {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 
 .container form {
