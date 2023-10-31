@@ -149,12 +149,24 @@ margin-right: auto;
   left: 0;
   bottom: 0;
 }
-.texto-div2 h1,h4,button  {
+.texto-div2 h1  {
   text-align: center;
   align-items: center;
   position: relative;
-
 }
+.texto-div2 h4  {
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.texto-div2 button  {
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
 .texto-div2 h4{
   padding-bottom: 25px;
 }
