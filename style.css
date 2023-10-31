@@ -53,7 +53,17 @@ main {
   bottom: 0;
 
 }
-.texto-div h1,h4,p  {
+.texto-div h1  {
+  text-align: center;
+  position: relative;
+  padding-top: 80px;
+}
+.texto-div h4  {
+  text-align: center;
+  position: relative;
+  padding-top: 80px;
+}
+.texto-div p  {
   text-align: center;
   position: relative;
   padding-top: 80px;
@@ -116,7 +126,13 @@ margin-right: auto;
   align-items: center;
   justify-content: center;
 }
-
+.section4 h1 {
+  padding-top: 50px;
+}
+.section4 h4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .banner2 {
   position: relative;
 }
@@ -155,11 +171,27 @@ margin-right: auto;
 }
 .section6 {
   padding-top: 50px;
+  padding-bottom: 50px;
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section6 img{
+  margin-left: auto;
+  margin-right: auto;
+    width: 1000px;
+  }
+
+.section7 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
+
+
 
 
 .container form {
@@ -231,7 +263,7 @@ input[type="number"] {
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 10px;
     cursor: pointer; 
   }
