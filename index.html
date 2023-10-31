@@ -13,6 +13,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script>
+  $('.nav a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+        
+    $('html, body').animate({ 
+      scrollTop: targetOffset - 100
+    }, 500);
+  });</script>
 </head>
 
 <body>
@@ -115,7 +125,75 @@
     <section class="section5">
       <div id="cronograma">
         <h1>Cronograma:</h1>
-
+        <table border="1">
+          <tr>
+            <td>23/10</td>
+            <td>24/10</td>
+            <td>25/10</td>
+          </tr>
+          <tr>
+            <td>fotografia na prática</td>
+            <td>Desenho impressão 3D</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td>Quimica na prática</td>
+            <td>Board Games como contexto<br> para a prática de Lingua Inglesa</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td>Introdução a linguagem<br > de programção Phyton</td>
+            <td>Firewalls Desvendados:<br> Mantendo a Porta Trancada</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td>Arduino</td>
+            <td>Introdução a Docker</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td>Introdução: React.js</td>
+            <td>atequiando: criando documentos <br>científicos com LaTeX</td>
+            <td>Jogos Eletronicos</td>
+          </tr>
+          <tr>
+            <td>Dando uma digitalizada<br> na rotina/produtividade
+            </td>
+            <td>Animação de Superfícies<br> no Geogebra.</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td>Gestão financeira</td>
+            <td>Virei Arquiteto de <br>software, e agora?
+            </td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td>Criando Jogos <br>com o GameMaker</td>
+            <td>Let's Play Games!</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inglês instumental para T.I</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Sociologia e Rock</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Oficina de Dança</td>
+            <td>Cosplay</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Maratona de Programação</td>
+            <td>Cosplay</td>
+          </tr>
+        </table>
 
 
         
