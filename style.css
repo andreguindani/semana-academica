@@ -212,10 +212,24 @@ footer{
   color: #ffffff;
 }
 table{
-  color: #007bff;
-  font-size: large;
-}
+  text-align: center;
+  width: 1000px;
 
+}
+td {
+  text-align: center;
+}
+tr:hover{
+  background-color: #007bff;
+}
+thead td {
+  background-color: #007bff;
+  color: white;
+}
+table, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
 
 
 .container form {
