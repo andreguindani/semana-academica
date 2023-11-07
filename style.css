@@ -18,10 +18,7 @@ header {
     text-align: center;
     padding: 1rem; 
 }
-nav {
-    position: fixed;
-    margin-top: 0px;
-}
+
 nav ul {
     list-style: none; 
 }
