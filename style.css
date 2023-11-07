@@ -18,7 +18,9 @@ header {
     text-align: center;
     padding: 1rem; 
 }
-
+nav{
+  background-color:#555;
+}
 nav ul {
     list-style: none; 
 }
