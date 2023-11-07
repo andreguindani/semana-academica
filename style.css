@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto Slab;
 }
 html{
   scroll-behavior: smooth;
@@ -10,9 +11,7 @@ html{
 body {
     font-family: Roboto Slab;
 }
-main{
-    font-family: Roboto Slab;
-}
+
 header {
     background-color: #000000; 
     color: #ffffff; 
