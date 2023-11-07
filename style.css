@@ -10,6 +10,9 @@ html{
 body {
     font-family: Roboto Slab;
 }
+main{
+    font-family: Roboto Slab;
+}
 header {
     background-color: #000000; 
     color: #ffffff; 
